@@ -1,0 +1,509 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* vehicle_fuel_control
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 23:08+0000\n"
+"PO-Revision-Date: 2026-02-25 23:08+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: vehicle_fuel_control
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.report_fuel_consumption_template
+msgid "<strong>Period:</strong>"
+msgstr "<strong>Período:</strong>"
+
+#. module: vehicle_fuel_control
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.report_fuel_consumption_template
+msgid "<strong>Total:</strong>"
+msgstr "<strong>Total:</strong>"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_mass_approve_wizard__action
+msgid "Action"
+msgstr "Acción"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__message_needaction
+msgid "Action Needed"
+msgstr "Acción requerida"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_vehicle__active
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.view_vehicle_fuel_vehicle_search
+msgid "Active"
+msgstr "Activo"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__activity_ids
+msgid "Activities"
+msgstr "Actividades"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Decoración de excepción de actividad"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__activity_state
+msgid "Activity State"
+msgstr "Estado de actividad"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Icono de tipo de actividad"
+
+#. module: vehicle_fuel_control
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.view_vehicle_fuel_request_form
+msgid "Add notes..."
+msgstr "Añadir notas..."
+
+#. module: vehicle_fuel_control
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.view_mass_approve_wizard_form
+msgid "Apply"
+msgstr "Aplicar"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields.selection,name:vehicle_fuel_control.selection__vehicle_fuel_mass_approve_wizard__action__approve
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.view_vehicle_fuel_request_form
+msgid "Approve"
+msgstr "Aprobar"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields.selection,name:vehicle_fuel_control.selection__vehicle_fuel_request__state__approved
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.view_vehicle_fuel_request_search
+msgid "Approved"
+msgstr "Aprobado"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__message_attachment_count
+msgid "Attachment Count"
+msgstr "Número de adjuntos"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields.selection,name:vehicle_fuel_control.selection__vehicle_fuel_mass_approve_wizard__action__cancel
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.view_mass_approve_wizard_form
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.view_vehicle_fuel_request_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields.selection,name:vehicle_fuel_control.selection__vehicle_fuel_request__state__cancelled
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.view_vehicle_fuel_request_search
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_ledger__cost
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.report_fuel_consumption_template
+msgid "Cost"
+msgstr "Costo"
+
+#. module: vehicle_fuel_control
+#: model_terms:ir.actions.act_window,help:vehicle_fuel_control.action_vehicle_fuel_request
+msgid "Create your first fuel request"
+msgstr "Cree su primera solicitud de combustible"
+
+#. module: vehicle_fuel_control
+#: model_terms:ir.actions.act_window,help:vehicle_fuel_control.action_vehicle_fuel_vehicle
+msgid "Create your first vehicle"
+msgstr "Cree su primer vehículo"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_ledger__create_uid
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_mass_approve_wizard__create_uid
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__create_uid
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_vehicle__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_ledger__create_date
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_mass_approve_wizard__create_date
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__create_date
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_vehicle__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_ledger__date
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.report_fuel_consumption_template
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.view_vehicle_fuel_ledger_search
+msgid "Date"
+msgstr "Fecha"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_ledger__display_name
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_mass_approve_wizard__display_name
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__display_name
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_vehicle__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields.selection,name:vehicle_fuel_control.selection__vehicle_fuel_request__state__done
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.view_vehicle_fuel_request_form
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.view_vehicle_fuel_request_search
+msgid "Done"
+msgstr "Hecho"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields.selection,name:vehicle_fuel_control.selection__vehicle_fuel_request__state__draft
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.view_vehicle_fuel_request_search
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_vehicle__driver_id
+msgid "Driver/Owner"
+msgstr "Conductor/Propietario"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Contactos)"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,help:vehicle_fuel_control.field_vehicle_fuel_request__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Icono de Font Awesome, ej. fa-tasks"
+
+#. module: vehicle_fuel_control
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.report_fuel_consumption_template
+msgid "Fuel Consumption Report"
+msgstr "Informe de consumo de combustible"
+
+#. module: vehicle_fuel_control
+#: model:ir.actions.act_window,name:vehicle_fuel_control.action_vehicle_fuel_ledger
+#: model:ir.model,name:vehicle_fuel_control.model_vehicle_fuel_ledger
+#: model:ir.ui.menu,name:vehicle_fuel_control.menu_fuel_ledger
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.view_vehicle_fuel_ledger_list
+msgid "Fuel Ledger"
+msgstr "Libro Mayor de Combustible"
+
+#. module: vehicle_fuel_control
+#: model:res.groups,name:vehicle_fuel_control.group_fuel_manager
+msgid "Fuel Manager"
+msgstr "Administrador de Combustible"
+
+#. module: vehicle_fuel_control
+#: model:ir.model,name:vehicle_fuel_control.model_vehicle_fuel_request
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.view_vehicle_fuel_request_form
+msgid "Fuel Request"
+msgstr "Solicitud de Combustible"
+
+#. module: vehicle_fuel_control
+#: model:ir.actions.act_window,name:vehicle_fuel_control.action_vehicle_fuel_request
+#: model:ir.ui.menu,name:vehicle_fuel_control.menu_fuel_requests
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.view_vehicle_fuel_request_list
+msgid "Fuel Requests"
+msgstr "Solicitudes de Combustible"
+
+#. module: vehicle_fuel_control
+#: model:res.groups,name:vehicle_fuel_control.group_fuel_user
+msgid "Fuel User"
+msgstr "Usuario de Combustible"
+
+#. module: vehicle_fuel_control
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.view_vehicle_fuel_request_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__has_message
+msgid "Has Message"
+msgstr "Tiene mensaje"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_ledger__id
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_mass_approve_wizard__id
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__id
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_vehicle__id
+msgid "ID"
+msgstr "ID"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__activity_exception_icon
+msgid "Icon"
+msgstr "Icono"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,help:vehicle_fuel_control.field_vehicle_fuel_request__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Icono para indicar una actividad de excepción."
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,help:vehicle_fuel_control.field_vehicle_fuel_request__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Si está marcado, los nuevos mensajes requieren su atención."
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,help:vehicle_fuel_control.field_vehicle_fuel_request__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si está marcado, algunos mensajes tienen un error de entrega."
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__message_is_follower
+msgid "Is Follower"
+msgstr "Es seguidor"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_ledger__write_uid
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_mass_approve_wizard__write_uid
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__write_uid
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_vehicle__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_ledger__write_date
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_mass_approve_wizard__write_date
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__write_date
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_vehicle__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__ledger_id
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.view_vehicle_fuel_ledger_form
+msgid "Ledger Entry"
+msgstr "Asiento de libro mayor"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_vehicle__license_plate
+msgid "License Plate"
+msgstr "Placa"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_ledger__liters
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__liters
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.report_fuel_consumption_template
+msgid "Liters"
+msgstr "Litros"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields.selection,name:vehicle_fuel_control.selection__vehicle_fuel_mass_approve_wizard__action__done
+msgid "Mark as Done"
+msgstr "Marcar como Hecho"
+
+#. module: vehicle_fuel_control
+#: model:ir.model,name:vehicle_fuel_control.model_vehicle_fuel_mass_approve_wizard
+msgid "Mass Approve Fuel Requests"
+msgstr "Aprobación masiva de solicitudes de combustible"
+
+#. module: vehicle_fuel_control
+#: model:ir.actions.act_window,name:vehicle_fuel_control.action_mass_approve_wizard
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.view_mass_approve_wizard_form
+msgid "Mass Process Fuel Requests"
+msgstr "Procesamiento masivo de solicitudes de combustible"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__message_has_error
+msgid "Message Delivery error"
+msgstr "Error de entrega de mensaje"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__message_ids
+msgid "Messages"
+msgstr "Mensajes"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_vehicle__model
+msgid "Model"
+msgstr "Modelo"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Mi fecha límite de actividad"
+
+#. module: vehicle_fuel_control
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.view_vehicle_fuel_request_search
+msgid "My Requests"
+msgstr "Mis solicitudes"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_vehicle__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Fecha límite de la siguiente actividad"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__activity_summary
+msgid "Next Activity Summary"
+msgstr "Resumen de la siguiente actividad"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__activity_type_id
+msgid "Next Activity Type"
+msgstr "Tipo de siguiente actividad"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_ledger__notes
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__notes
+msgid "Notes"
+msgstr "Notas"
+
+#. module: vehicle_fuel_control
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.view_vehicle_fuel_ledger_form
+msgid "Notes..."
+msgstr "Notas..."
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de acciones"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__message_has_error_counter
+msgid "Number of errors"
+msgstr "Número de errores"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,help:vehicle_fuel_control.field_vehicle_fuel_request__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Número de mensajes que requieren acción"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,help:vehicle_fuel_control.field_vehicle_fuel_request__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Número de mensajes con error de entrega"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_ledger__odometer
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__odometer
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.report_fuel_consumption_template
+msgid "Odometer"
+msgstr "Odómetro"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_ledger__user_id
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.report_fuel_consumption_template
+msgid "Processed by"
+msgstr "Procesado por"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_ledger__name
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__name
+msgid "Reference"
+msgstr "Referencia"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__date_request
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.view_vehicle_fuel_request_search
+msgid "Request Date"
+msgstr "Fecha de solicitud"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__requester_id
+msgid "Requester"
+msgstr "Solicitante"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_mass_approve_wizard__request_ids
+msgid "Requests to Process"
+msgstr "Solicitudes a procesar"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__activity_user_id
+msgid "Responsible User"
+msgstr "Usuario responsable"
+
+#. module: vehicle_fuel_control
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.view_vehicle_fuel_request_search
+msgid "Search Fuel Requests"
+msgstr "Buscar solicitudes de combustible"
+
+#. module: vehicle_fuel_control
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.view_vehicle_fuel_ledger_search
+msgid "Search Ledger"
+msgstr "Buscar en libro mayor"
+
+#. module: vehicle_fuel_control
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.view_vehicle_fuel_vehicle_search
+msgid "Search Vehicles"
+msgstr "Buscar vehículos"
+
+#. module: vehicle_fuel_control
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.view_vehicle_fuel_request_form
+msgid "Set to Draft"
+msgstr "Volver a borrador"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_ledger__request_id
+msgid "Source Request"
+msgstr "Solicitud de origen"
+
+#. module: vehicle_fuel_control
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.view_vehicle_fuel_request_search
+msgid "State"
+msgstr "Estado"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__state
+msgid "Status"
+msgstr "Estado"
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,help:vehicle_fuel_control.field_vehicle_fuel_request__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Estado basado en actividades\n"
+"Retrasada: La fecha límite ya pasó\n"
+"Hoy: La actividad es hoy\n"
+"Planificada: Actividades futuras."
+
+#. module: vehicle_fuel_control
+#: model:ir.model.fields,help:vehicle_fuel_control.field_vehicle_fuel_request__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Tipo de actividad de excepción en el registro."
+
+#. module: vehicle_fuel_control
+#: model:ir.model,name:vehicle_fuel_control.model_vehicle_fuel_vehicle
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_ledger__vehicle_id
+#: model:ir.model.fields,field_description:vehicle_fuel_control.field_vehicle_fuel_request__vehicle_id
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.report_fuel_consumption_template
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.view_vehicle_fuel_ledger_search
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.view_vehicle_fuel_request_search
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.view_vehicle_fuel_vehicle_form
+msgid "Vehicle"
+msgstr "Vehículo"
+
+#. module: vehicle_fuel_control
+#: model:ir.ui.menu,name:vehicle_fuel_control.menu_vehicle_fuel_root
+msgid "Vehicle Fuel"
+msgstr "Combustible de Vehículos"
+
+#. module: vehicle_fuel_control
+#: model:ir.actions.act_window,name:vehicle_fuel_control.action_vehicle_fuel_vehicle
+#: model:ir.ui.menu,name:vehicle_fuel_control.menu_vehicles
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.view_vehicle_fuel_vehicle_list
+msgid "Vehicles"
+msgstr "Vehículos"
+
+#. module: vehicle_fuel_control
+#: model_terms:ir.ui.view,arch_db:vehicle_fuel_control.report_fuel_consumption_template
+msgid "to"
+msgstr "a"

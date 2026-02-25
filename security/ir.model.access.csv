@@ -5,3 +5,4 @@ access_vehicle_fuel_request_user,vehicle.fuel.request.user,model_vehicle_fuel_re
 access_vehicle_fuel_request_manager,vehicle.fuel.request.manager,model_vehicle_fuel_request,group_fuel_manager,1,1,1,1
 access_vehicle_fuel_ledger_user,vehicle.fuel.ledger.user,model_vehicle_fuel_ledger,group_fuel_user,1,0,0,0
 access_vehicle_fuel_ledger_manager,vehicle.fuel.ledger.manager,model_vehicle_fuel_ledger,group_fuel_manager,1,1,1,1
+access_vehicle_fuel_mass_approve_wizard_manager,vehicle.fuel.mass.approve.wizard.manager,model_vehicle_fuel_mass_approve_wizard,group_fuel_manager,1,1,1,1
