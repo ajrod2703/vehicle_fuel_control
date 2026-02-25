@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="menu_vehicle_fuel_root" name="Vehicle Fuel" sequence="10"/>
+    <menuitem id="menu_vehicles" name="Vehicles" parent="menu_vehicle_fuel_root" action="action_vehicle_fuel_vehicle" sequence="10"/>
+    <menuitem id="menu_fuel_requests" name="Fuel Requests" parent="menu_vehicle_fuel_root" action="action_vehicle_fuel_request" sequence="20"/>
+    <menuitem id="menu_fuel_ledger" name="Fuel Ledger" parent="menu_vehicle_fuel_root" action="action_vehicle_fuel_ledger" sequence="30"/>
+</odoo>

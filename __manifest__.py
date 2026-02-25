@@ -1,0 +1,26 @@
+{
+    'name': 'Vehicle Fuel Control',
+    'version': '1.0',
+    'category': 'Fleet Management',
+    'summary': 'Control and monitor fuel consumption for vehicles.',
+    'author': 'Alfredo - Mastercore Test',
+    'depends': ['base', 'mail'],
+    'data': [
+        'security/groups.xml',
+        'security/ir.model.access.csv',
+        'security/record_rules.xml',
+        'data/sequence.xml',
+        'views/vehicle_views.xml',
+        'views/fuel_request_views.xml',
+        'views/fuel_ledger_views.xml',
+        'wizards/mass_approve_wizard_views.xml',  
+        'reports/fuel_consumption_report.xml',
+        'reports/fuel_consumption_report_template.xml',
+        'views/menus.xml',
+    ],
+    'demo': [
+        'demo/demo_vehicles.xml',
+    ],
+    'installable': True,
+    'application': True,
+}

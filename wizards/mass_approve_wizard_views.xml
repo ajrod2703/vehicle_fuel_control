@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_mass_approve_wizard_form" model="ir.ui.view">
+        <field name="name">vehicle.fuel.mass.approve.wizard.form</field>
+        <field name="model">vehicle.fuel.mass.approve.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Mass Process Fuel Requests">
+                <group>
+                    <field name="request_ids" widget="many2many_tags" options="{'no_create': True}"/>
+                    <field name="action"/>
+                </group>
+                <footer>
+                    <button name="action_apply" string="Apply" type="object" class="btn-primary"/>
+                    <button string="Cancel" class="btn-secondary" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <!-- Acción de ventana para el wizard -->
+    <record id="action_mass_approve_wizard" model="ir.actions.act_window">
+        <field name="name">Mass Process Fuel Requests</field>
+        <field name="res_model">vehicle.fuel.mass.approve.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <field name="binding_model_id" ref="model_vehicle_fuel_request"/>
+        <field name="binding_view_types">list</field>
+        <field name="context">{'default_request_ids': [(6, 0, active_ids)]}</field>
+    </record>
+</odoo>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Vista de lista de solicitudes -->
+    <record id="view_vehicle_fuel_request_list" model="ir.ui.view">
+        <field name="name">vehicle.fuel.request.list</field>
+        <field name="model">vehicle.fuel.request</field>
+        <field name="arch" type="xml">
+            <list string="Fuel Requests" decoration-success="state=='done'" decoration-danger="state=='cancelled'" decoration-info="state=='approved'" decoration-warning="state=='draft'">
+                <field name="name"/>
+                <field name="vehicle_id"/>
+                <field name="requester_id"/>
+                <field name="date_request"/>
+                <field name="liters"/>
+                <field name="state" widget="badge"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- Vista de formulario de solicitudes -->
+    <record id="view_vehicle_fuel_request_form" model="ir.ui.view">
+        <field name="name">vehicle.fuel.request.form</field>
+        <field name="model">vehicle.fuel.request</field>
+        <field name="arch" type="xml">
+            <form string="Fuel Request">
+                <header>
+                    <button name="action_approve" string="Approve" type="object" class="btn-primary" invisible="state != 'draft'"/>
+                    <button name="action_done" string="Done" type="object" class="btn-success" invisible="state != 'approved'"/>
+                    <button name="action_cancel" string="Cancel" type="object" class="btn-secondary" invisible="state not in ('draft','approved')"/>
+                    <button name="action_draft" string="Set to Draft" type="object" class="btn-secondary" invisible="state != 'cancelled'"/>
+                    <field name="state" widget="statusbar" statusbar_visible="draft,approved,done,cancelled"/>
+                </header>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="vehicle_id"/>
+                            <field name="requester_id"/>
+                            <field name="date_request"/>
+                        </group>
+                        <group>
+                            <field name="liters"/>
+                            <field name="odometer"/>
+                            <field name="ledger_id" widget="many2one" optional="show" invisible="not ledger_id"/>
+                        </group>
+                    </group>
+                    <group>
+                        <field name="notes" nolabel="1" placeholder="Add notes..."/>
+                    </group>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids"/>
+                    <field name="activity_ids"/>
+                    <field name="message_ids"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <!-- Vista de búsqueda de solicitudes -->
+    <record id="view_vehicle_fuel_request_search" model="ir.ui.view">
+        <field name="name">vehicle.fuel.request.search</field>
+        <field name="model">vehicle.fuel.request</field>
+        <field name="arch" type="xml">
+            <search string="Search Fuel Requests">
+                <field name="name"/>
+                <field name="vehicle_id"/>
+                <field name="requester_id"/>
+                <filter name="state_draft" string="Draft" domain="[('state','=','draft')]"/>
+                <filter name="state_approved" string="Approved" domain="[('state','=','approved')]"/>
+                <filter name="state_done" string="Done" domain="[('state','=','done')]"/>
+                <filter name="state_cancelled" string="Cancelled" domain="[('state','=','cancelled')]"/>
+                <separator/>
+                <filter name="my_requests" string="My Requests" domain="[('requester_id','=',uid)]"/>
+                <group expand="0" string="Group By">
+                    <filter name="group_vehicle" string="Vehicle" context="{'group_by':'vehicle_id'}"/>
+                    <filter name="group_state" string="State" context="{'group_by':'state'}"/>
+                    <filter name="group_date" string="Request Date" context="{'group_by':'date_request'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- Acción de ventana para solicitudes -->
+    <record id="action_vehicle_fuel_request" model="ir.actions.act_window">
+        <field name="name">Fuel Requests</field>
+        <field name="res_model">vehicle.fuel.request</field>
+        <field name="view_mode">list,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">Create your first fuel request</p>
+        </field>
+    </record>
+</odoo>

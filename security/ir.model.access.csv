@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_vehicle_fuel_vehicle_user,vehicle.fuel.vehicle.user,model_vehicle_fuel_vehicle,group_fuel_user,1,0,0,0
+access_vehicle_fuel_vehicle_manager,vehicle.fuel.vehicle.manager,model_vehicle_fuel_vehicle,group_fuel_manager,1,1,1,1
+access_vehicle_fuel_request_user,vehicle.fuel.request.user,model_vehicle_fuel_request,group_fuel_user,1,1,1,0
+access_vehicle_fuel_request_manager,vehicle.fuel.request.manager,model_vehicle_fuel_request,group_fuel_manager,1,1,1,1
+access_vehicle_fuel_ledger_user,vehicle.fuel.ledger.user,model_vehicle_fuel_ledger,group_fuel_user,1,0,0,0
+access_vehicle_fuel_ledger_manager,vehicle.fuel.ledger.manager,model_vehicle_fuel_ledger,group_fuel_manager,1,1,1,1
