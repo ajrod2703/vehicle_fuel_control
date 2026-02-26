@@ -1,5 +1,5 @@
-from odoo import models, fields, api
-from odoo.exceptions import UserError
+from odoo import models, fields, api, _
+from odoo.exceptions import UserError, ValidationError
 
 class FuelRequest(models.Model):
     _name = 'vehicle.fuel.request'
@@ -28,6 +28,19 @@ class FuelRequest(models.Model):
             if vals.get('name', 'New') == 'New':
                 vals['name'] = self.env['ir.sequence'].next_by_code('vehicle.fuel.request') or 'New'
         return super().create(vals_list)
+
+    @api.constrains('liters')
+    def _check_liters_positive(self):
+        for record in self:
+            if record.liters <= 0:
+                raise ValidationError(_('The liters must be greater than zero.'))
+
+    @api.constrains('odometer')
+    def _check_odometer_positive(self):
+        for record in self:
+            if record.odometer and record.odometer < 0:
+                raise ValidationError(_('The odometer cannot be negative.'))
+
 
     def action_approve(self):
         self.write({'state': 'approved'})
